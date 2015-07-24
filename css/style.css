@@ -1,0 +1,23 @@
+/* h1, h2, h3, h4
+*/
+
+body {
+	background-image:pacific.jpg;
+	color:blue;
+}
+
+h1, h2, h3 {
+		color:red;
+		font-size:14px;
+		text-decoration:none;
+	}
+
+ul {
+	color:blue;
+}
+
+p {
+
+
+}
+
