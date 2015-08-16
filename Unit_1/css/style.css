@@ -1,16 +1,38 @@
-/* h1, h2, h3, h4
+/* palette
+#646E6E medium slate gray
+#8A959A lighter gray
+#FEFEFE cream
+#473F3A brown
 */
 
 body {
-	background-image:pacific.jpg;
-	color:blue;
+	background:#FEFEFE;
+	color:#473F3A;
+	font-family:sans-serif;
+	width:700px;
+
 }
 
 h1, h2, h3 {
-		color:red;
-		font-size:14px;
-		text-decoration:none;
-	}
+	color:#473F3A; 
+	text-decoration:none;
+}
+
+	a:link { 
+	color: #646E6E;
+}
+
+	a:visited {
+	color:#8A959A;
+}
+
+h1 {	
+	font-size:22px;
+}
+
+h2 {
+	font-size:20px;
+}
 
 ul {
 	color:blue;
@@ -18,6 +40,26 @@ ul {
 
 p {
 
+}
 
+.spacing {
+	margin:10px;
+}
+
+#slogan {
+	font-size: 18px;
+	font-style:italic;
+}
+
+#detail {
+	font-size:12px;
+}
+
+
+#services {
+	margin:auto;
+	padding:30px;
+	width:200px;
+	background-color:#fffccc;
 }
 
