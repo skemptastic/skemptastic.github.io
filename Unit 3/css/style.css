@@ -14,14 +14,18 @@ body {
 	background-color:#8A959A;
 	color:#473F3A;
 	font-family:sans-serif;
-	width:75%;
-	padding:50px;
+	margin: 50px 50px;
+
+	/* can't get this to rotate 
+
 	background-image:url("file:///Users/kerryskemp/Documents/GA/skemptastic.github.io/Unit%203/css/assets/mountain.jpg");
 	background-transparency:.5;
 	-transform:rotate(90deg);
 	background-attachment:fixed;
 	background-repeat:no-repeat;
 	background-size:100% 100%
+
+	*/
 }
 
 	a:link { 
