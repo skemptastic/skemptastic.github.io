@@ -1,72 +1,68 @@
 /* 
 color palette
-#646E6E 100,110,110 medium slate gray
-#8A959A 138,149,154 lighter gray
-#FAFAFA 250,250,250 cream
-#473F3A 71,63,58brown
+#A3A3A6 light gray
+#51504B dark gray
+#76BBFF light blue
+#4F6D9F dark blue
+#3E3920 brown/olive
 */
 
 
 /* selectors */
 
 body {
-	text-align:center;
-	background-color:#8A959A;
-	color:#473F3A;
+	background-color:#A3A3A6;
+	color:#51504B;
 	font-family:sans-serif;
-	margin: 50px 50px;
-
-	/* can't get this to rotate 
-
-	background-image:url("file:///Users/kerryskemp/Documents/GA/skemptastic.github.io/Unit%203/css/assets/mountain.jpg");
-	background-transparency:.5;
-	-transform:rotate(90deg);
-	background-attachment:fixed;
-	background-repeat:no-repeat;
-	background-size:100% 100%
-
-	*/
+	width: 700px; 
+	margin: 0 auto;
 }
 
-	a:link { 
-	color: #646E6E;
+a:link { 
+	color:#4F6D9F;
 }
 
-	a:visited {
-	color:#8A959A;
+a:visited {
+	color:#76BBFF;
 }
 
-h1 h2 h3 {
-	font-family:"Lora", serif;
+h1, h2, h3 {
+	color:#4F6D9F;
+	font-family: 'Lora', Arial, serif; 
 }
 
 h1 {	
-	font-size:32px;
+	font-size:50px;
 }
 
 h2 {
-	font-size:28px;
+	font-size:32px;
 }
 
+h3 {
+	font-size:20px;
+}
+
+
 ul {
-	font-size:18px;
+	font-size:20px;
 }
 
 
 li {
-	display:list-item;
-	padding:7px;
+	display:inline-block;
+	padding:7px 7px;
 	width:30%;
 }
 
 /* IDs */ 
 
 #detail {
-	padding:10px;
+	border:2px 2px;
 }
 
 #services {
-	padding:30px;
+	border:5px 5px;
 }
 
 #slogan {
@@ -75,25 +71,29 @@ li {
 
 /* classses */
 
-.wrap {
-	background-color:rgba(250,250,250,.75);
-	background-attachment: fixed; /* fixed image stays while others stays on top */
-	background-repeat:no-repeat;
-	background-size:cover; 
-	padding:30px;
-	margin-top:50px;
+.beachwrap {
+	background:url("assets/unfog.jpg") no-repeat center center fixed;
+	background-size:cover;
+	padding:100px 0;
+	margin:50px 50px;
+	text-align:center;
 }
 
-.padding {
-	padding:10px;
-}
 
 .threecol {
 	display:inline-block;
-	width:200px;
-	column-count: 3;
+	padding:20px auto;
+	width:150px;
+	height:150px;
+	background-color:#76BBFF;
+	vertical-align:center;
 }
 
 
+.wrap {
+	background-color:rgba(250,250,250,1);
+	padding:30px;
+	margin-top:50px;
+}
 
 
