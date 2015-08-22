@@ -1,27 +1,26 @@
 /* 
 color palette
-#A3A3A6 light gray
-#51504B dark gray
-#76BBFF light blue
-#4F6D9F dark blue
-#3E3920 brown/olive
+#A3A3A6 light gray 163,163,166
+#51504B dark gray 81,80,75
+#76BBFF light blue 118,187,255
+#4F6D9F dark blue 79,109,159
+#3E3920 brown/olive  62,57,32
 */
 
-@import url(http://fonts.googleapis.com/css?family=Coustard|Istok+Web);
+@import url(http://fonts.googleapis.com/css?family=Work+Sans:400,700,200|Gentium+Basic:400,700,400italic);
 
 /* selectors */
 
 body {
-	/* hiding colors 
-	background-color:#A3A3A6;
-	color:#51504B; */
-	font-family:'Istok Web',Helvetica,sans-serif;
-	width: 700px; 
+	/* color:#51504B; */
 	margin: 0 auto;
+	font-family:'Gentium Basic',Garamond,serif;
+	font-size:18px;
+	width:75%;
 }
 
 a:link { 
-	/* color:#4F6D9F; */
+	color:#4F6D9F;
 }
 
 a:visited {
@@ -30,7 +29,9 @@ a:visited {
 
 h1, h2, h3 {
 	/* color:#4F6D9F; */ 
-	font-family: 'Coustard', Garamond, serif;  
+	font-family: 'Work Sans', Helvetica, sans-serif;  
+	font-size:22px;
+	text-transform:uppercase;
 }
 
 h1 {	
@@ -45,12 +46,17 @@ h3 {
 	font-size:1.2em;
 }
 
+div {
+
+	width:75%;
+	padding:3em 3em;
+	margin:3em 3em;
+}
 
 p {
 
 	font-size:18px;
 	line-spacing:1.5em;
-	font-family:'Istok Web',Helvetica,sans-serif;
 }
 
 }
@@ -61,76 +67,65 @@ ul {
 
 li {
 	display:inline-block;
-	padding:.5em .5em;
-	/* width:30%; */ 
 }
 
 /* IDs */ 
 
-#detail {
-	border:2px 2px;
+#detail, #about, #contact {
+	background-color:rgba(163,163,166,.5);
 }
 
-#services {
-	border:5px 5px;
+#services, #nav {
+	background-color:rgba(79,109,159,.5);
 }
 
 #slogan {
-	font-style:italic;
+	background-color:rgba(62,57,32,.5);
 }
 
 /* classes */
 
+.attrib {
+	font-size:.7em;
+	font-style:italic;
+	text-align:right;
+}
+
+.quote {
+	font-size:1.5em;
+}
+
 .wrap1 {
 	/* background:url("assets/sun1-elizolwen.jpg") no-repeat center center; */
 	/* background-size:full; */
-	padding:100px 0;
-	margin:50px 50px;
+	background-attachment:fixed;
+	background-color: #4F6D9F;
+	opacity:.5;
 	text-align:center;
 	display:block;
 	position:relative;
 }
 
-.wrap1 img {
-	opacity: 0.5;
-	position:absolute;
-	left:0;
-	top:0;
-	width:100%;
-	height:auto;
-}
-
 .wrap2 {
 	/* background:url("assets/sun2-elizolwen.jpg") no-repeat center center; */
 	/* background-size:1000px; */
-	padding:100px 0;
-	margin:50px 50px;
-	text-align:center;
+	background-color:#3E3920;
 }
 
 .wrap3 {
 	/* background:url("assets/sun3-elizolwen.jpg") no-repeat center center; */
 	/* background-size:1000px; */
-	padding:100px 0;
-	margin:50px 50px;
-	text-align:center;
 }
 
 .wrap4 {
 	/* background:url("assets/sun4-elizolwen.jpg") no-repeat center center;
 	/* background-size:1000px; */
-	padding:100px 0;
-	margin:4em 4em;
-	text-align:center;
 }
 
 .col {
 	display:inline-block;
-	padding:3em auto;
-	width:150px;
-	height:150px;
-	background-color:#fefefe;
-	vertical-align:center;
+	margin:.5em auto;
+	width:33.33;
 }
 
 
