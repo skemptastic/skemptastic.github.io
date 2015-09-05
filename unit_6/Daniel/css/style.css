@@ -1,0 +1,71 @@
+/*daniel css */
+
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700);
+
+
+body {
+	font-family:'Libre Baskerville',Garamond,serif;
+	color:#000000;
+	font-size:18px;
+}
+
+h1 {
+	text-align:center;
+	font-size:2em;
+}
+
+img {
+	max-width: 100%;
+	height:auto;
+	padding:2%;
+}
+
+nav li {
+	list-style:none;
+}
+
+nav {
+	width:25%;
+	float:left;
+}
+
+nav a {
+	background-color:#fff;
+	color:#000;
+	text-decoration:none;
+	padding:10px;
+	display:block;
+}
+
+nav a:hover {
+	text-decoration:underline;
+	font-weight:700;
+}
+
+.clearfix {
+	visibility:hidden;
+	display:block;
+	font-size:0;
+	content:" ";
+	clear:both;
+	height:0;
+}
+
+.wrap {
+	width:75%;
+	float:right;
+	background-color:#aaa;
+}
+
+.col1 {
+	float:left;
+	padding:2%;
+	width:42%;
+}
+
+.col2 {
+	float:left;
+	padding:2%;
+	width:42%;
+}
+
