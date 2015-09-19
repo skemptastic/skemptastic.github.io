@@ -90,6 +90,11 @@ nav li {
 	bullets:none;
 }
 
+p {
+	font-size:16px;
+	margin:0;
+	line-height:1.618em;
+}
 /* IDs */ 
 
 
