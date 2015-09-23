@@ -25,11 +25,17 @@ body {
 	font-size:18px;
 	line-height:1.5em;
 	background:#fff;
+	background-width:100%;
+	position:relative;
 }
 
 a:link { 
 	color:#4F6D9F;
 	text-decoration:none;
+}
+
+div {
+	padding:2% auto;
 }
 
 em {
@@ -114,9 +120,7 @@ p {
 }
 
 .col {
-	margin:2% auto;
 	width:30%;
-	padding:2%;
 	float:left;
 }
 
@@ -124,9 +128,15 @@ p {
 .main {
 
 	width:75%;
-	margin:5%;
+	margin:5% auto;
 	clear:both;
+	margin-top:150px;
 
+}
+
+.nav {
+	position:fixed;
+	width:100%;
 }
 
 .quote {
@@ -153,8 +163,8 @@ p {
 
 #services {
 	background-color:rgba(79,109,159,.5);
-	padding:2%;
-	margin-bottom:2%;
+	padding:2% auto;
+	margin:2% auto;
 }
 
 #slogan {
@@ -192,6 +202,9 @@ p {
 		width:auto;
 	}
 
+.nav {
+	position:static;
+}
 
 	#input:checked + #menu {
 		display:block;
