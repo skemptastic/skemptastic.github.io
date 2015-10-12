@@ -14,28 +14,100 @@ lighter gray yellow - #B2B26B
 fonts: diner
 
 */
-link	
 
-yellow background:
-dark gray text-align: 
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif);
+
+
+a {
+	color:#B2B26B;
+}
+
+img {
+	width:100%;
+}
 
 body {
 	background-color:#FFFF99;
-	font-size: 18px
-	margin: 5% 30% 5% 30%;
-	position:relative;
-	width:30%;
+	font-size: 18px;
+	font-family:'Droid Serif';
 }
 
 h1 {
-	font-family: 'diner-fatt',Garamond;
+	font-family: 'Diner-Fattregular',Garamond;
+	font-size: 2.6em;
+}
+
+h2 {
+	font-family: 'Diner-Fattregular',Garamond;
+	font-size: 1.6em;
 }
 
 hr {
 	width:30%;
-	height:1em;
+	border-top:dotted 2px;
+	}
+
+nav a {
+	text-transform:uppercase;
+	text-decoration:none;
+	color:#1A1A0F;
+	font-size:1.2em;
 }
 
-.nav {
-	position:fixed;
+nav a:hover {
+	background-color:#B2B26B;
+}
+
+nav li {
+	list-style:none;
+}
+
+/* classes */
+
+.slogan {
+	text-align:right;
+	background-color:#B2B26B
+
+}
+
+.image {
+	width:100%;
+/*	background-color:#B2B26B;*/
+}
+
+.logo {
+	background-image:url(bnb-assets/bb-eye.png);
+	float:left;
+}
+
+.wrapper {
+	width:60%;
+	margin:0 20% 0 20%;
+}
+
+/* IDs */
+
+
+#menu {
+	float:left;
+	margin: 0.5em auto;
+
+}
+
+/* media queries */
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+
+	body {
+		font-size: 16px;
+	}
+
+	#menu {
+		float:none;
+	}
+
+	img {
+		display:none;
+	}
+
 }
