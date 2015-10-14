@@ -1,6 +1,6 @@
-/*butter and bourne stylez 
+/*
 
-colourz
+butter and bourne colors
 
 yellow - #FFFF99
 dark gray - #1A1A0F
@@ -9,14 +9,16 @@ lighter gray yellow - #B2B26B
 
 */
 
-/*
+@import url(https://fonts.googleapis.com/css?family=Walter+Turncoat);
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
 
-fonts: diner
+/* universal selector */
 
-*/
-
-@import url(https://fonts.googleapis.com/css?family=Droid+Serif);
-
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
 
 a {
 	color:#B2B26B;
@@ -28,17 +30,15 @@ img {
 
 body {
 	background-color:#FFFF99;
-	font-size: 18px;
-	font-family:'Droid Serif';
 }
 
+
 h1 {
-	font-family: 'Diner-Fattregular',Garamond;
+	font-family:'Walter Turncoat', sans-serif;
 	font-size: 2.6em;
 }
 
 h2 {
-	font-family: 'Diner-Fattregular',Garamond;
 	font-size: 1.6em;
 }
 
@@ -64,21 +64,44 @@ nav li {
 
 /* classes */
 
+.headerfont {
+	font-family:'Walter Turncoat', sans-serif;
+}
+
 .slogan {
 	text-align:right;
-	background-color:#B2B26B
-
+	background-color:#B2B26B;
+	clear:both;
 }
 
 .image {
 	width:100%;
-/*	background-color:#B2B26B;*/
 }
 
 .logo {
-	background-image:url(bnb-assets/bb-eye.png);
-	float:left;
+	background:url(../bnb-assets/bb-eye.png) center left;
+	background-size: contain;
+    background-repeat: no-repeat;
+    height: 80px;
 }
+
+.text {
+	font-size:20px;
+	font-size:18px;
+	font-family:'Droid Serif',sans-serif;
+	line-height:120%;
+	padding:.5em;
+}
+
+.textlist {
+	font-size:20px;
+	font-size:18px;
+	font-family:'Droid Serif',sans-serif;
+	line-height:120%;
+	padding:.5em;
+    list-style-type: circle;
+}
+
 
 .wrapper {
 	width:60%;
@@ -90,7 +113,7 @@ nav li {
 
 #menu {
 	float:left;
-	margin: 0.5em auto;
+	margin: 1em 1em 1em 1em;
 
 }
 
