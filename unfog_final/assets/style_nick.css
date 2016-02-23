@@ -1,0 +1,28 @@
+body {
+	color:#000;
+	font-family:'Droid Sans',Arial,sans-serif;
+	font-size:16px;
+}
+
+.container {
+	max-width:1000px;
+	margin: 0 auto;
+	position:fixed;
+}
+
+h1 {
+	margin-bottom:3em;
+	font-size:2em;
+}
+
+div {
+	style:none;
+}
+
+.fixed-pix {
+	height:100%;
+	background-position:50% 50%;
+	background-size:cover;
+	background-image: url("../assets/jottingnotes.jpg") no-repeat center center fixed;
+	position:absolute;
+}

@@ -1,0 +1,109 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+@import url(https://fonts.googleapis.com/css?family=Old+Standard+TT);
+
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+* , *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+body {
+	position:relative;
+	font-family:'Old Standard TT';
+	font-size:18px;
+}
+
+
+h1, h2, h3, h4, h5 {
+	font-family:'Lobster';
+}
+
+h1 {
+	font-size:2em;
+}
+
+nav {
+
+	background-color:#A3A3A6;
+
+}
+
+nav a {
+	margin: 1.2em;
+}
+
+
+nav a:hover {
+	background-color:#aaaaaa;
+
+}
+
+nav ul {
+	list-style:none;
+}
+
+nav li {
+	display:inline-block;
+	line-height:1.2em;
+}
+
+.headerimage {
+	background-size:cover;
+	width:100%;
+	height:700px;
+	margin:0 auto;
+	display:flex;
+}
+
+
+.headerimage h1 {
+	font-size:3em;
+	margin:2em auto;
+}
+
+.mountains {
+	background:url("../images/road-mountains.jpg") no-repeat center center fixed;
+}
+
+.fields {
+	background:url("../images/mountain-field.jpg") no-repeat center center fixed;
+}
+
+
+.bg-pix.notes {
+	background:url("postitnotes.jpg") no-repeat center center fixed;
+}
+
+.bg-pix.joe {
+	background:url("coffeetalk.jpg") no-repeat center center fixed;
+}
+
+.bg-pix.cutout {
+	background:url("cutouts.jpg") no-repeat center center fixed;
+}
+
+.description {
+	margin: 20px 20px 20px 20px;
+	letter-spacing:.1em;
+}
+
+.scrolling {
+  	position: relative;
+  	min-height: 250px;/*
+  	margin: 3em 2em 3em 2em;*/
+  	line-height: 1.6;
+  	z-index: 2;
+  	overflow:scroll;
+ 	text-align:center;
+ 	vertical-align:middle;
+ 	font-size:1.5em;
+ 	margin-top:125px;
+
+}

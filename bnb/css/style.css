@@ -14,6 +14,7 @@ lighter gray yellow - #B2B26B
 
 /* universal selector */
 
+
 * {
 	margin:0;
 	padding:0;
@@ -30,11 +31,15 @@ img {
 
 body {
 	background-color:#FFFF99;
+	font-family:'Droid Serif 400',serif;
 }
 
 
-h1 {
+h1, h2, h3 {
 	font-family:'Walter Turncoat', sans-serif;
+}
+
+h1 {	
 	font-size: 2.6em;
 }
 
@@ -64,9 +69,6 @@ nav li {
 
 /* classes */
 
-.headerfont {
-	font-family:'Walter Turncoat', sans-serif;
-}
 
 .slogan {
 	text-align:right;

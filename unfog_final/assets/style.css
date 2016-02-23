@@ -1,0 +1,190 @@
+/*body {
+	font-family:Helvetica,sans-serif;
+	font-size:24px;
+	line-height:1.2em;
+	height:100%;
+/*	background:linear-gradient(black, white);*/
+
+/*stealing from https://codyhouse.co/demo/alternate-fixed-scroll-background/index.html 
+*/
+}
+
+html * {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+	font-size:100%;
+	font-family:"Droid Sans";
+	color:#404e66;
+/*	background:linear-gradient(#e69fab,#ffffff);*/
+	height:100%;
+}
+
+body,html {
+	height:100%;
+}
+
+a {
+	color:#cf8796;
+	text-decoration:none;
+}
+
+/*not using cd container or header or nav for now*/
+
+.wrapper {
+	width:90%;
+	max-width:1000px;
+	margin: 0 auto;
+}
+
+.wrapper::after {
+	content:'';
+	display:table;
+	clear:both;
+}
+
+.main {
+	height:100%;
+	position:relative;
+	z-index:1;
+}
+
+.backgroundimages {
+	position:relative;
+	min-height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	z-index: 1;
+}
+
+.backgroundimages.jot {
+	background-image: url("../assets/jottingnotes.jpg");
+}
+
+.backgroundimages.post {
+	background-image:url("../assets/postitnotes.jpg");
+
+}
+
+.scrollingtext {
+	position:relative;
+	min-height:100%;
+	padding: 4em 0;
+	line-height: 1.6em;
+	z-index:2;
+}
+
+/*.wrapper {
+	position:absolute;
+}*/
+
+/*.centertext {
+	line-height:333px;
+	margin-left:50%;
+	font-size:2em;
+	font-variant:uppercase;
+
+}*/
+
+
+
+/*images are fixed*/
+/*
+.bgimages {
+	position:relative;
+	min-height:100%;
+	background-size: cover;
+    background-repeat:no-repeat;
+    background-position:center center;
+    z-index:1;
+}
+
+.bgimages::after {
+	content:' ';
+	display:table;
+	clear:both;
+}
+
+
+.bgimages.jot {
+	background-image:url(../assets/jottingnotes.jpg) no-repeat center center fixed;
+}
+
+.bgimages.postit {	
+ 	background-image:url(../assets/postitnotes.jpg);
+}*/
+
+/* scrolling */
+/*
+
+.string {
+	background:url(../assets/colorednotetags.jpg) no-repeat center center fixed;
+	width:100%;
+    height:100%;
+    background-size: cover;
+    background-position: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position:absolute;
+}
+
+.coffee {
+	background:url(../assets/coffeetalk.jpg) no-repeat center center fixed;
+	width:100%;
+    height:100%;
+    background-size: cover;
+    background-position: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+   position:absolute;
+
+}
+
+.cut {
+	background:url(../assets/cutouts.jpg) no-repeat center center fixed;
+	width: 100%;
+    height:100%;
+    background-size: cover;
+    background-position: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.sew {
+	background:url(../assets/sewitup.jpg) no-repeat center center fixed;
+}
+
+
+
+/*text scrolls *//*
+.text {
+	min-height:100%;
+	position:relative;
+	padding:8em 0;
+}
+
+.text.pink {
+	background-color:pink;
+	color:black;
+}
+
+.text.blue {
+	background-color:blue;
+	color:black;
+}
+*/*/*/
