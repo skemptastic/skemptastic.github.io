@@ -1,0 +1,8 @@
+You've learned a lot about web development so far. I want you to take a moment to write down your thoughts about web development here. Answer the following questions:
+  * What new skills have you learned?
+  * What has been easy?
+  * What has been difficult?
+  * How have you used the problem solving strategies from the first project to overcome challenges so far?
+
+---
+I knew most of these tags already, but it was good practice to translate an image into code. This exercise was pretty easy overall and a good confidence builder. My biggest struggle so far has been getting the Udacity Chrome extension to work (it never keeps the “allow feedback option” checked). I still haven’t figured that one out despite looking through the forums but I will persevere and find a way to use it!
