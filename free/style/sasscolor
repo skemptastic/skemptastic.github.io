@@ -1,0 +1,15 @@
+$stops: 12;
+
+$colour-start: #95A5A6;
+$colour-end: #ECF0F1;
+
+@for $i from 1 through $stops {
+  div:nth-of-type(#{$i}) {
+    @if $i == 1 {
+      background-color: $colour-start;
+    }
+    @else {
+      background-color: mix($colour-end, $colour-start, $i*(100/$stops));
+    }
+  }
+}

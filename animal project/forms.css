@@ -1,0 +1,62 @@
+body {
+	font-family:Lato;
+	font-size:18px;
+	background:;
+}
+
+nav {
+	float:right;
+	list-style:none;
+	color:#f06eaa;
+}
+
+h1 {
+	font-size:4em;
+	text-transform:uppercase;
+	margin:20px auto;
+}
+
+.clearfix {
+	clear:both;
+}
+
+
+.strong {
+	font-size:1.1em;
+	font-weight:bold;
+	margin:-5px 0 0 0;
+}
+
+.aaform {
+	background:#f06eaa;
+	border:#8899af;
+	border-radius:10px;
+	padding:10px 10px;
+	margin:10px 10px;
+	width:30%;
+}
+
+.shadow {	
+	box-shadow:3px 3px 3px #8899af;
+}
+
+.beach {
+	margin:10px auto;
+	background:
+		linear-gradient(
+			rgba(96,92,168,0.3),
+			rgba(96,92,168,0.3),
+		url("images/beach cliffs.jpeg");}
+	width:100%;
+	height:500px;
+	filter:box-shadow;
+}
+
+.bbform {
+	background:#605ca8;
+	border:#8899af;
+	border-radius:10px;
+	padding:10px 10px;
+	margin:10px 10px;
+	width:30%;
+}
