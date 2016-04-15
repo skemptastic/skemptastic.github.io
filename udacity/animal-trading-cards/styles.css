@@ -1,0 +1,31 @@
+/* add your CSS here */
+body {
+  font-family:'Open Sans',Arial;
+  width:70%;
+  font-size: 16px;
+}
+
+#container {
+  border: 1px solid #aaa;
+  box-shadow: 2px 2px 2px #aaa;
+  width:70%;
+  margin: 20px auto;
+  padding: 20px 20px;
+}
+
+.images {
+  margin: 10px 0px 10px 0px;
+}
+
+.info {
+  border: 1px solid #aaa;
+  padding: 20px 20px;
+}
+
+.heavy {
+  font-weight:bold;
+}
+
+h3 {
+  font-size: 2em;
+}
