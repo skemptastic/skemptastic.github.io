@@ -1,1 +1,5 @@
 here are some reflections
+
+Why use remote rather than local?
+
+A remote repository helps you share your work with other people.
