@@ -1,0 +1,30 @@
+lesson_2_reflections.txt
+
+Q: What happens when you initialize a repository? Why do you need to do it?
+
+A: You have to create a repository so you have somewhere to commit your code to. Everything has to start somewhere.
+
+Q: How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+A: The staging area comes between the working directory and the repository. It exists so that you can decide what and how to commit and what to say about it, and so you don't have to commit everything.
+
+Q: How can you use the staging area to make sure you have one commit per logical change?
+
+A: Only put files in staging once there is a logical evolution within them.
+
+Q: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+A: Branches help you try big new things without breaking what's there. They should be used for conceptual changes and not just updates.
+
+Q: How do the diagrams help you visualize the branch structure?
+
+A: Diagrams help you figure out where you are in the branch, but also where the other code branches are. This is important if you need to know where to put your code back or how to merge it with the master without losing features.
+
+Q: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+A: Merging two branches combines the code so that all functions exist unless they contradict. It creates a new master and gets rid of the old branch, but doesn't delete it, rather incorporates it.
+
+
+Q: What are the dis/advantages of automatic and manual merging?
+
+A: Manual merging requires you to make sure the code makes sense, and that it’s worth committing. Automatic merging might risk losing an important change to a merge.
