@@ -3,3 +3,12 @@ here are some reflections
 Why use remote rather than local?
 
 A remote repository helps you share your work with other people.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+You may also want to commit and push your changes. When you're finished, click "Next".
+
+A fork is a part of someone else's project that you've pulled out to work on something specific that probably changes the general direction of that project. It's also a feature particular to GitHub.
+
+Use a branch to experiment with building a new feature without disturbing the master branch, but probably with the idea of bringing it back together later (that is, not creating a whole new thing).
+
+Clone something entirely to turn it into a new project.
